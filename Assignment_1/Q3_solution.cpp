@@ -9,12 +9,12 @@ int main(){
     if(choice==1){
         std::cout<<"Enter temperature in Celsius: \n";
         std::cin>>c;   
-        result=(9/5)*c+32;
+        result=(9.0/5.0)*c+32.0;
     }
     else if(choice==2){
         std::cout<<"Enter temperature in Fahrinheit: \n";
         std::cin>>f;
-        result=(f-32)*(5/9);
+        result=(f-32.0)*(5.0/9.0);
     }
     std::cout<<"Your temperature is "<<result<<std::endl;
     return 0;
